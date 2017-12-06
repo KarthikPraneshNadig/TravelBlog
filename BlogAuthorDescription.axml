@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:foreground="@android:color/holo_green_dark"
+    android:foregroundGravity="fill_vertical"
+    android:background="@drawable/background">
+    <Button
+        android:text="MENU"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/button1" />
+    <ImageView
+        android:src="@drawable/test"
+        android:layout_width="wrap_content"
+        android:layout_height="250.0dp"
+        android:scaleType="fitStart"
+        android:id="@+id/imageView1" />
+    <TextView
+        android:text="                         MY BLOG"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView2"
+        android:background="@android:color/darker_gray"
+        android:textColor="@android:color/white" />
+    <TextView
+        android:text="This is my travel bolg and my travel destination recorder                                                                                                                                         Travel is fun and I love to Have fun, I dont know if it is because of Bollywood movies or is it American dreams! I always wanted  to travel places                                                                                                                                                                                                                 Right from taking a flight till having the traditional dish of the destination, I will not miss them all . I probably am sure that it is the same for everyone.                                                                                                                                                                        Here is my travel blog. Please visit, Appreciate my dreams and build yours too!...."
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView1" />
+</LinearLayout>
